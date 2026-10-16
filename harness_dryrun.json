@@ -1,0 +1,130 @@
+{
+ "A1_append_sem": {
+  "paraphrase|new": {
+   "correct": 11
+  },
+  "paraphrase|old": {
+   "correct": 9,
+   "wrong": 2
+  },
+  "attribute|new": {
+   "correct": 6,
+   "wrong": 1
+  },
+  "attribute|old": {
+   "wrong": 4,
+   "correct": 3
+  },
+  "unrelated|new": {
+   "correct": 14,
+   "wrong": 1
+  },
+  "unrelated|old": {
+   "correct": 15
+  },
+  "flip|new": {
+   "correct": 6,
+   "wrong": 1
+  },
+  "flip|old": {
+   "correct": 5,
+   "wrong": 2
+  }
+ },
+ "A2_append_time": {
+  "paraphrase|new": {
+   "correct": 11
+  },
+  "paraphrase|old": {
+   "correct": 9,
+   "wrong": 2
+  },
+  "attribute|new": {
+   "correct": 6,
+   "wrong": 1
+  },
+  "attribute|old": {
+   "wrong": 4,
+   "correct": 3
+  },
+  "unrelated|new": {
+   "correct": 14,
+   "wrong": 1
+  },
+  "unrelated|old": {
+   "correct": 15
+  },
+  "flip|new": {
+   "correct": 6,
+   "wrong": 1
+  },
+  "flip|old": {
+   "correct": 5,
+   "wrong": 2
+  }
+ },
+ "A3_sup_sem": {
+  "paraphrase|new": {
+   "correct": 11
+  },
+  "paraphrase|old": {
+   "correct": 9,
+   "wrong": 2
+  },
+  "attribute|new": {
+   "correct": 6,
+   "wrong": 1
+  },
+  "attribute|old": {
+   "wrong": 4,
+   "correct": 3
+  },
+  "unrelated|new": {
+   "correct": 14,
+   "wrong": 1
+  },
+  "unrelated|old": {
+   "correct": 15
+  },
+  "flip|new": {
+   "correct": 6,
+   "wrong": 1
+  },
+  "flip|old": {
+   "correct": 5,
+   "wrong": 2
+  }
+ },
+ "A4_sup_time": {
+  "paraphrase|new": {
+   "correct": 11
+  },
+  "paraphrase|old": {
+   "wrong": 8,
+   "correct": 3
+  },
+  "attribute|new": {
+   "correct": 6,
+   "wrong": 1
+  },
+  "attribute|old": {
+   "wrong": 4,
+   "correct": 3
+  },
+  "unrelated|new": {
+   "correct": 14,
+   "wrong": 1
+  },
+  "unrelated|old": {
+   "correct": 15
+  },
+  "flip|new": {
+   "correct": 6,
+   "wrong": 1
+  },
+  "flip|old": {
+   "correct": 3,
+   "wrong": 4
+  }
+ }
+}

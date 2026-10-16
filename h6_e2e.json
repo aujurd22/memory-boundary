@@ -1,0 +1,18 @@
+{
+ "A1": {
+  "not_newest": 258,
+  "correct": 42
+ },
+ "A4": {
+  "not_newest": 186,
+  "correct": 114
+ },
+ "A5": {
+  "correct": 267,
+  "not_newest": 33
+ },
+ "A6": {
+  "correct": 268,
+  "not_newest": 32
+ }
+}

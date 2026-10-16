@@ -1,0 +1,369 @@
+{
+ "A1_append_sem": {
+  "0.5-0.7|fact|当时": {
+   "correct_old": 12,
+   "correct": 3
+  },
+  "0.5-0.7|fact|现在": {
+   "correct": 12,
+   "stale": 3
+  },
+  "0.5-0.7|pref|当时": {
+   "correct": 2,
+   "correct_old": 10
+  },
+  "0.5-0.7|pref|现在": {
+   "correct": 9,
+   "stale": 3
+  },
+  "0.5-0.7|progress|当时": {
+   "correct_old": 17,
+   "correct": 18
+  },
+  "0.5-0.7|progress|现在": {
+   "stale": 10,
+   "correct": 25
+  },
+  "0.7-0.9|fact|当时": {
+   "correct_old": 25,
+   "correct": 1
+  },
+  "0.7-0.9|fact|现在": {
+   "correct": 25,
+   "stale": 1
+  },
+  "0.7-0.9|pref|当时": {
+   "correct_old": 22,
+   "correct": 2
+  },
+  "0.7-0.9|pref|现在": {
+   "stale": 6,
+   "correct": 18
+  },
+  "0.7-0.9|progress|当时": {
+   "correct_old": 11,
+   "correct": 15
+  },
+  "0.7-0.9|progress|现在": {
+   "stale": 8,
+   "correct": 18
+  },
+  "0.9+|fact|当时": {
+   "correct_old": 25,
+   "correct": 2
+  },
+  "0.9+|fact|现在": {
+   "correct": 23,
+   "stale": 4
+  },
+  "0.9+|pref|当时": {
+   "correct_old": 2,
+   "correct": 1
+  },
+  "0.9+|pref|现在": {
+   "stale": 2,
+   "correct": 1
+  },
+  "0.9+|progress|当时": {
+   "correct_old": 2
+  },
+  "0.9+|progress|现在": {
+   "correct": 2
+  },
+  "<0.5|fact|当时": {
+   "correct_old": 8
+  },
+  "<0.5|fact|现在": {
+   "correct": 8
+  },
+  "<0.5|pref|当时": {
+   "correct_old": 11
+  },
+  "<0.5|pref|现在": {
+   "correct": 9,
+   "stale": 2
+  },
+  "<0.5|progress|当时": {
+   "correct_old": 7,
+   "correct": 4
+  },
+  "<0.5|progress|现在": {
+   "stale": 2,
+   "correct": 9
+  }
+ },
+ "A2_append_time": {
+  "0.5-0.7|fact|当时": {
+   "correct_old": 12,
+   "correct": 3
+  },
+  "0.5-0.7|fact|现在": {
+   "correct": 12,
+   "stale": 3
+  },
+  "0.5-0.7|pref|当时": {
+   "correct": 2,
+   "correct_old": 10
+  },
+  "0.5-0.7|pref|现在": {
+   "correct": 9,
+   "stale": 3
+  },
+  "0.5-0.7|progress|当时": {
+   "correct_old": 17,
+   "correct": 18
+  },
+  "0.5-0.7|progress|现在": {
+   "stale": 10,
+   "correct": 25
+  },
+  "0.7-0.9|fact|当时": {
+   "correct_old": 25,
+   "correct": 1
+  },
+  "0.7-0.9|fact|现在": {
+   "correct": 25,
+   "stale": 1
+  },
+  "0.7-0.9|pref|当时": {
+   "correct_old": 22,
+   "correct": 2
+  },
+  "0.7-0.9|pref|现在": {
+   "stale": 6,
+   "correct": 18
+  },
+  "0.7-0.9|progress|当时": {
+   "correct_old": 11,
+   "correct": 15
+  },
+  "0.7-0.9|progress|现在": {
+   "stale": 8,
+   "correct": 18
+  },
+  "0.9+|fact|当时": {
+   "correct_old": 25,
+   "correct": 2
+  },
+  "0.9+|fact|现在": {
+   "correct": 23,
+   "stale": 4
+  },
+  "0.9+|pref|当时": {
+   "correct_old": 2,
+   "correct": 1
+  },
+  "0.9+|pref|现在": {
+   "stale": 2,
+   "correct": 1
+  },
+  "0.9+|progress|当时": {
+   "correct_old": 2
+  },
+  "0.9+|progress|现在": {
+   "correct": 2
+  },
+  "<0.5|fact|当时": {
+   "correct_old": 8
+  },
+  "<0.5|fact|现在": {
+   "correct": 8
+  },
+  "<0.5|pref|当时": {
+   "correct_old": 11
+  },
+  "<0.5|pref|现在": {
+   "correct": 9,
+   "stale": 2
+  },
+  "<0.5|progress|当时": {
+   "correct_old": 7,
+   "correct": 4
+  },
+  "<0.5|progress|现在": {
+   "stale": 2,
+   "correct": 9
+  }
+ },
+ "A3_sup_sem": {
+  "0.5-0.7|fact|当时": {
+   "correct_old": 12,
+   "correct": 3
+  },
+  "0.5-0.7|fact|现在": {
+   "correct": 12,
+   "stale": 3
+  },
+  "0.5-0.7|pref|当时": {
+   "correct": 2,
+   "correct_old": 10
+  },
+  "0.5-0.7|pref|现在": {
+   "correct": 9,
+   "stale": 3
+  },
+  "0.5-0.7|progress|当时": {
+   "correct_old": 17,
+   "correct": 18
+  },
+  "0.5-0.7|progress|现在": {
+   "stale": 10,
+   "correct": 25
+  },
+  "0.7-0.9|fact|当时": {
+   "correct_old": 25,
+   "correct": 1
+  },
+  "0.7-0.9|fact|现在": {
+   "correct": 25,
+   "stale": 1
+  },
+  "0.7-0.9|pref|当时": {
+   "correct_old": 22,
+   "correct": 2
+  },
+  "0.7-0.9|pref|现在": {
+   "stale": 6,
+   "correct": 18
+  },
+  "0.7-0.9|progress|当时": {
+   "correct_old": 11,
+   "correct": 15
+  },
+  "0.7-0.9|progress|现在": {
+   "stale": 8,
+   "correct": 18
+  },
+  "0.9+|fact|当时": {
+   "correct_old": 25,
+   "correct": 2
+  },
+  "0.9+|fact|现在": {
+   "correct": 23,
+   "stale": 4
+  },
+  "0.9+|pref|当时": {
+   "correct_old": 2,
+   "correct": 1
+  },
+  "0.9+|pref|现在": {
+   "stale": 2,
+   "correct": 1
+  },
+  "0.9+|progress|当时": {
+   "correct_old": 2
+  },
+  "0.9+|progress|现在": {
+   "correct": 2
+  },
+  "<0.5|fact|当时": {
+   "correct_old": 8
+  },
+  "<0.5|fact|现在": {
+   "correct": 8
+  },
+  "<0.5|pref|当时": {
+   "correct_old": 11
+  },
+  "<0.5|pref|现在": {
+   "correct": 9,
+   "stale": 2
+  },
+  "<0.5|progress|当时": {
+   "correct_old": 7,
+   "correct": 4
+  },
+  "<0.5|progress|现在": {
+   "stale": 2,
+   "correct": 9
+  }
+ },
+ "A4_sup_time": {
+  "0.5-0.7|fact|当时": {
+   "correct_old": 12,
+   "correct": 3
+  },
+  "0.5-0.7|fact|现在": {
+   "correct": 12,
+   "stale": 3
+  },
+  "0.5-0.7|pref|当时": {
+   "correct": 2,
+   "correct_old": 10
+  },
+  "0.5-0.7|pref|现在": {
+   "correct": 9,
+   "stale": 3
+  },
+  "0.5-0.7|progress|当时": {
+   "correct_old": 17,
+   "correct": 18
+  },
+  "0.5-0.7|progress|现在": {
+   "stale": 10,
+   "correct": 25
+  },
+  "0.7-0.9|fact|当时": {
+   "correct_old": 18,
+   "correct": 8
+  },
+  "0.7-0.9|fact|现在": {
+   "correct": 26
+  },
+  "0.7-0.9|pref|当时": {
+   "correct_old": 18,
+   "correct": 6
+  },
+  "0.7-0.9|pref|现在": {
+   "stale": 3,
+   "correct": 21
+  },
+  "0.7-0.9|progress|当时": {
+   "correct_old": 9,
+   "correct": 17
+  },
+  "0.7-0.9|progress|现在": {
+   "stale": 8,
+   "correct": 18
+  },
+  "0.9+|fact|当时": {
+   "correct": 27
+  },
+  "0.9+|fact|现在": {
+   "correct": 27
+  },
+  "0.9+|pref|当时": {
+   "correct": 3
+  },
+  "0.9+|pref|现在": {
+   "correct": 3
+  },
+  "0.9+|progress|当时": {
+   "correct": 2
+  },
+  "0.9+|progress|现在": {
+   "correct": 2
+  },
+  "<0.5|fact|当时": {
+   "correct_old": 8
+  },
+  "<0.5|fact|现在": {
+   "correct": 8
+  },
+  "<0.5|pref|当时": {
+   "correct_old": 11
+  },
+  "<0.5|pref|现在": {
+   "correct": 9,
+   "stale": 2
+  },
+  "<0.5|progress|当时": {
+   "correct_old": 7,
+   "correct": 4
+  },
+  "<0.5|progress|现在": {
+   "stale": 2,
+   "correct": 9
+  }
+ }
+}

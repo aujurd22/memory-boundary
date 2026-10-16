@@ -1,0 +1,1806 @@
+{
+ "version": "v0.3",
+ "n": 200,
+ "stimuli": [
+  {
+   "qid": "fli-044",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体04的进度是0%",
+   "new": "实体04的进度是50%",
+   "expected_recall": "new_strict",
+   "cos": 0.515
+  },
+  {
+   "qid": "att-041",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体18偏好的模式是均衡",
+   "new": "实体18偏好的模式是快速",
+   "expected_recall": "new",
+   "cos": 0.718
+  },
+  {
+   "qid": "fli-001",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体17的进度是25%",
+   "new": "实体17的进度是0%",
+   "expected_recall": "new_strict",
+   "cos": 0.659
+  },
+  {
+   "qid": "fli-006",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体03的位置在架子2",
+   "new": "实体03的位置在架子1",
+   "expected_recall": "new_strict",
+   "cos": 0.938
+  },
+  {
+   "qid": "fli-020",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体21的状态是暂停",
+   "new": "实体21的状态是关闭",
+   "expected_recall": "new_strict",
+   "cos": 0.848
+  },
+  {
+   "qid": "unr-016",
+   "family": "unrelated",
+   "state_type": "fact",
+   "old": "实体40的位置在架子1",
+   "new": "实体40的颜色是黄",
+   "expected_recall": "both_independent",
+   "cos": 0.504
+  },
+  {
+   "qid": "att-027",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体36的位置在桌面4",
+   "new": "实体36的位置在架子2",
+   "expected_recall": "new",
+   "cos": 0.824
+  },
+  {
+   "qid": "unr-020",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体12偏好的模式是精确",
+   "new": "实体12的位置在抽屉3",
+   "expected_recall": "both_independent",
+   "cos": 0.392
+  },
+  {
+   "qid": "unr-038",
+   "family": "unrelated",
+   "state_type": "fact",
+   "old": "实体21的位置在架子1",
+   "new": "实体21的状态是开启",
+   "expected_recall": "both_independent",
+   "cos": 0.829
+  },
+  {
+   "qid": "att-043",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体33的状态是完成",
+   "new": "实体33的状态是开启",
+   "expected_recall": "new",
+   "cos": 0.892
+  },
+  {
+   "qid": "par-015",
+   "family": "paraphrase",
+   "state_type": "progress",
+   "old": "实体22的进度是50%",
+   "new": "实体22已完成一半",
+   "expected_recall": "either_same_content",
+   "cos": 0.658
+  },
+  {
+   "qid": "fli-018",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体24的进度是75%",
+   "new": "实体24的进度是0%",
+   "expected_recall": "new_strict",
+   "cos": 0.639
+  },
+  {
+   "qid": "par-048",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体06喜欢的版本是v3",
+   "new": "实体06用3.0 版",
+   "expected_recall": "either_same_content",
+   "cos": 0.774
+  },
+  {
+   "qid": "att-009",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体33喜欢的版本是v1",
+   "new": "实体33喜欢的版本是v2",
+   "expected_recall": "new",
+   "cos": 0.909
+  },
+  {
+   "qid": "att-026",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体06喜欢的版本是v3",
+   "new": "实体06喜欢的版本是v2",
+   "expected_recall": "new",
+   "cos": 0.871
+  },
+  {
+   "qid": "par-025",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体15的颜色是红",
+   "new": "实体15呈红色",
+   "expected_recall": "either_same_content",
+   "cos": 0.929
+  },
+  {
+   "qid": "fli-017",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体06的进度是25%",
+   "new": "实体06的进度是75%",
+   "expected_recall": "new_strict",
+   "cos": 0.478
+  },
+  {
+   "qid": "unr-035",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体26的状态是开启",
+   "new": "实体26喜欢的版本是v3",
+   "expected_recall": "both_independent",
+   "cos": 0.602
+  },
+  {
+   "qid": "fli-045",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体06的位置在抽屉3",
+   "new": "实体06的位置在架子1",
+   "expected_recall": "new_strict",
+   "cos": 0.77
+  },
+  {
+   "qid": "par-022",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体36喜欢的版本是v2",
+   "new": "实体36用2.0 版",
+   "expected_recall": "either_same_content",
+   "cos": 0.791
+  },
+  {
+   "qid": "att-035",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体06的颜色是绿",
+   "new": "实体06的颜色是红",
+   "expected_recall": "new",
+   "cos": 0.616
+  },
+  {
+   "qid": "unr-033",
+   "family": "unrelated",
+   "state_type": "fact",
+   "old": "实体11的位置在桌面4",
+   "new": "实体11的容器是箱子D",
+   "expected_recall": "both_independent",
+   "cos": 0.493
+  },
+  {
+   "qid": "fli-047",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体14的位置在架子2",
+   "new": "实体14的位置在架子1",
+   "expected_recall": "new_strict",
+   "cos": 0.94
+  },
+  {
+   "qid": "unr-018",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体35的状态是开启",
+   "new": "实体35的颜色是绿",
+   "expected_recall": "both_independent",
+   "cos": 0.496
+  },
+  {
+   "qid": "fli-002",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体23的位置在桌面4",
+   "new": "实体23的位置在架子1",
+   "expected_recall": "new_strict",
+   "cos": 0.86
+  },
+  {
+   "qid": "fli-043",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体31的位置在桌面4",
+   "new": "实体31的位置在抽屉3",
+   "expected_recall": "new_strict",
+   "cos": 0.677
+  },
+  {
+   "qid": "fli-024",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体13的进度是50%",
+   "new": "实体13的进度是100%",
+   "expected_recall": "new_strict",
+   "cos": 0.575
+  },
+  {
+   "qid": "fli-012",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体40的位置在桌面4",
+   "new": "实体40的位置在架子1",
+   "expected_recall": "new_strict",
+   "cos": 0.846
+  },
+  {
+   "qid": "par-014",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体27的位置在架子1",
+   "new": "实体27被放在1号架",
+   "expected_recall": "either_same_content",
+   "cos": 0.907
+  },
+  {
+   "qid": "unr-044",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体29的进度是100%",
+   "new": "实体29偏好的模式是快速",
+   "expected_recall": "both_independent",
+   "cos": 0.534
+  },
+  {
+   "qid": "fli-034",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体33的位置在架子2",
+   "new": "实体33的位置在抽屉3",
+   "expected_recall": "new_strict",
+   "cos": 0.733
+  },
+  {
+   "qid": "par-027",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体35的位置在抽屉3",
+   "new": "实体35被放在第3抽屉",
+   "expected_recall": "either_same_content",
+   "cos": 0.962
+  },
+  {
+   "qid": "par-024",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体06的容器是盒子B",
+   "new": "实体06装在B号盒子",
+   "expected_recall": "either_same_content",
+   "cos": 0.899
+  },
+  {
+   "qid": "att-037",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体22偏好的模式是省电",
+   "new": "实体22偏好的模式是精确",
+   "expected_recall": "new",
+   "cos": 0.662
+  },
+  {
+   "qid": "unr-037",
+   "family": "unrelated",
+   "state_type": "fact",
+   "old": "实体25的容器是箱子D",
+   "new": "实体25的颜色是蓝",
+   "expected_recall": "both_independent",
+   "cos": 0.403
+  },
+  {
+   "qid": "fli-009",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体33的位置在抽屉3",
+   "new": "实体33的位置在架子1",
+   "expected_recall": "new_strict",
+   "cos": 0.778
+  },
+  {
+   "qid": "att-011",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体12的容器是盒子B",
+   "new": "实体12的容器是盒子C",
+   "expected_recall": "new",
+   "cos": 0.927
+  },
+  {
+   "qid": "att-004",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体36偏好的模式是精确",
+   "new": "实体36偏好的模式是快速",
+   "expected_recall": "new",
+   "cos": 0.754
+  },
+  {
+   "qid": "par-004",
+   "family": "paraphrase",
+   "state_type": "progress",
+   "old": "实体15的状态是开启",
+   "new": "实体15当前是运行中",
+   "expected_recall": "either_same_content",
+   "cos": 0.896
+  },
+  {
+   "qid": "att-038",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体03的状态是关闭",
+   "new": "实体03的状态是开启",
+   "expected_recall": "new",
+   "cos": 0.807
+  },
+  {
+   "qid": "unr-003",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体29喜欢的版本是v1",
+   "new": "实体29的容器是盒子A",
+   "expected_recall": "both_independent",
+   "cos": 0.46
+  },
+  {
+   "qid": "par-011",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体20的颜色是黄",
+   "new": "实体20呈黄色",
+   "expected_recall": "either_same_content",
+   "cos": 0.951
+  },
+  {
+   "qid": "att-048",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体28的进度是25%",
+   "new": "实体28的进度是0%",
+   "expected_recall": "new",
+   "cos": 0.736
+  },
+  {
+   "qid": "unr-030",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体11的状态是完成",
+   "new": "实体11的进度是75%",
+   "expected_recall": "both_independent",
+   "cos": 0.42
+  },
+  {
+   "qid": "fli-004",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体10的位置在架子1",
+   "new": "实体10的位置在抽屉3",
+   "expected_recall": "new_strict",
+   "cos": 0.773
+  },
+  {
+   "qid": "par-047",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体14的位置在桌面4",
+   "new": "实体14被放在4号桌面",
+   "expected_recall": "either_same_content",
+   "cos": 0.961
+  },
+  {
+   "qid": "par-032",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体07偏好的模式是快速",
+   "new": "实体07倾向选速度优先",
+   "expected_recall": "either_same_content",
+   "cos": 0.799
+  },
+  {
+   "qid": "unr-017",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体12喜欢的版本是v1",
+   "new": "实体12的位置在桌面4",
+   "expected_recall": "both_independent",
+   "cos": 0.608
+  },
+  {
+   "qid": "att-049",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体25的颜色是绿",
+   "new": "实体25的颜色是黄",
+   "expected_recall": "new",
+   "cos": 0.622
+  },
+  {
+   "qid": "unr-048",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体06的状态是暂停",
+   "new": "实体06的进度是0%",
+   "expected_recall": "both_independent",
+   "cos": 0.524
+  },
+  {
+   "qid": "fli-023",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体04的位置在抽屉3",
+   "new": "实体04的位置在架子2",
+   "expected_recall": "new_strict",
+   "cos": 0.682
+  },
+  {
+   "qid": "fli-046",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体22的进度是25%",
+   "new": "实体22的进度是0%",
+   "expected_recall": "new_strict",
+   "cos": 0.747
+  },
+  {
+   "qid": "unr-021",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体21的状态是开启",
+   "new": "实体21偏好的模式是精确",
+   "expected_recall": "both_independent",
+   "cos": 0.688
+  },
+  {
+   "qid": "att-036",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体05的状态是暂停",
+   "new": "实体05的状态是开启",
+   "expected_recall": "new",
+   "cos": 0.782
+  },
+  {
+   "qid": "unr-046",
+   "family": "unrelated",
+   "state_type": "fact",
+   "old": "实体26的位置在架子1",
+   "new": "实体26的容器是盒子C",
+   "expected_recall": "both_independent",
+   "cos": 0.691
+  },
+  {
+   "qid": "par-035",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体31喜欢的版本是v1",
+   "new": "实体31用1.0 版",
+   "expected_recall": "either_same_content",
+   "cos": 0.826
+  },
+  {
+   "qid": "par-039",
+   "family": "paraphrase",
+   "state_type": "progress",
+   "old": "实体10的进度是100%",
+   "new": "实体10已完成全部完成",
+   "expected_recall": "either_same_content",
+   "cos": 0.583
+  },
+  {
+   "qid": "att-019",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体09的位置在桌面4",
+   "new": "实体09的位置在架子1",
+   "expected_recall": "new",
+   "cos": 0.806
+  },
+  {
+   "qid": "fli-011",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体03的位置在架子2",
+   "new": "实体03的位置在抽屉3",
+   "expected_recall": "new_strict",
+   "cos": 0.76
+  },
+  {
+   "qid": "par-049",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体31偏好的模式是精确",
+   "new": "实体31倾向选精度优先",
+   "expected_recall": "either_same_content",
+   "cos": 0.73
+  },
+  {
+   "qid": "fli-039",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体01的状态是关闭",
+   "new": "实体01的状态是开启",
+   "expected_recall": "new_strict",
+   "cos": 0.81
+  },
+  {
+   "qid": "unr-047",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体06喜欢的版本是v2",
+   "new": "实体06的状态是开启",
+   "expected_recall": "both_independent",
+   "cos": 0.589
+  },
+  {
+   "qid": "par-010",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体16喜欢的版本是v1",
+   "new": "实体16用1.0 版",
+   "expected_recall": "either_same_content",
+   "cos": 0.829
+  },
+  {
+   "qid": "par-030",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体26的位置在架子1",
+   "new": "实体26被放在1号架",
+   "expected_recall": "either_same_content",
+   "cos": 0.9
+  },
+  {
+   "qid": "par-023",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体27喜欢的版本是v2",
+   "new": "实体27用2.0 版",
+   "expected_recall": "either_same_content",
+   "cos": 0.809
+  },
+  {
+   "qid": "unr-005",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体28喜欢的版本是v1",
+   "new": "实体28的容器是盒子B",
+   "expected_recall": "both_independent",
+   "cos": 0.499
+  },
+  {
+   "qid": "par-003",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体36的容器是箱子D",
+   "new": "实体36装在D号箱",
+   "expected_recall": "either_same_content",
+   "cos": 0.889
+  },
+  {
+   "qid": "unr-040",
+   "family": "unrelated",
+   "state_type": "fact",
+   "old": "实体14的颜色是红",
+   "new": "实体14喜欢的版本是v2",
+   "expected_recall": "both_independent",
+   "cos": 0.364
+  },
+  {
+   "qid": "fli-040",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体20的状态是关闭",
+   "new": "实体20的状态是完成",
+   "expected_recall": "new_strict",
+   "cos": 0.764
+  },
+  {
+   "qid": "fli-010",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体14的进度是75%",
+   "new": "实体14的进度是0%",
+   "expected_recall": "new_strict",
+   "cos": 0.583
+  },
+  {
+   "qid": "par-021",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体32喜欢的版本是v1",
+   "new": "实体32用1.0 版",
+   "expected_recall": "either_same_content",
+   "cos": 0.829
+  },
+  {
+   "qid": "unr-041",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体10偏好的模式是精确",
+   "new": "实体10的进度是0%",
+   "expected_recall": "both_independent",
+   "cos": 0.433
+  },
+  {
+   "qid": "att-013",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体07的进度是100%",
+   "new": "实体07的进度是0%",
+   "expected_recall": "new",
+   "cos": 0.496
+  },
+  {
+   "qid": "fli-005",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体06的进度是75%",
+   "new": "实体06的进度是25%",
+   "expected_recall": "new_strict",
+   "cos": 0.478
+  },
+  {
+   "qid": "unr-045",
+   "family": "unrelated",
+   "state_type": "fact",
+   "old": "实体32的颜色是黄",
+   "new": "实体32的位置在桌面4",
+   "expected_recall": "both_independent",
+   "cos": 0.384
+  },
+  {
+   "qid": "fli-049",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体04的位置在架子1",
+   "new": "实体04的位置在架子2",
+   "expected_recall": "new_strict",
+   "cos": 0.908
+  },
+  {
+   "qid": "par-044",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体31的位置在抽屉3",
+   "new": "实体31被放在第3抽屉",
+   "expected_recall": "either_same_content",
+   "cos": 0.962
+  },
+  {
+   "qid": "unr-015",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体31的状态是暂停",
+   "new": "实体31的位置在架子1",
+   "expected_recall": "both_independent",
+   "cos": 0.656
+  },
+  {
+   "qid": "par-007",
+   "family": "paraphrase",
+   "state_type": "progress",
+   "old": "实体07的状态是关闭",
+   "new": "实体07当前是停用",
+   "expected_recall": "either_same_content",
+   "cos": 0.874
+  },
+  {
+   "qid": "att-040",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体34喜欢的版本是v1",
+   "new": "实体34喜欢的版本是v3",
+   "expected_recall": "new",
+   "cos": 0.878
+  },
+  {
+   "qid": "unr-049",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体09的进度是0%",
+   "new": "实体09的容器是盒子B",
+   "expected_recall": "both_independent",
+   "cos": 0.344
+  },
+  {
+   "qid": "att-001",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体11偏好的模式是精确",
+   "new": "实体11偏好的模式是快速",
+   "expected_recall": "new",
+   "cos": 0.725
+  },
+  {
+   "qid": "par-034",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体25的颜色是蓝",
+   "new": "实体25呈蓝色",
+   "expected_recall": "either_same_content",
+   "cos": 0.961
+  },
+  {
+   "qid": "par-018",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体23喜欢的版本是v1",
+   "new": "实体23用1.0 版",
+   "expected_recall": "either_same_content",
+   "cos": 0.845
+  },
+  {
+   "qid": "unr-023",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体29偏好的模式是均衡",
+   "new": "实体29的容器是盒子B",
+   "expected_recall": "both_independent",
+   "cos": 0.541
+  },
+  {
+   "qid": "fli-030",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体29的进度是25%",
+   "new": "实体29的进度是50%",
+   "expected_recall": "new_strict",
+   "cos": 0.724
+  },
+  {
+   "qid": "unr-000",
+   "family": "unrelated",
+   "state_type": "fact",
+   "old": "实体10的颜色是黄",
+   "new": "实体10的容器是盒子B",
+   "expected_recall": "both_independent",
+   "cos": 0.353
+  },
+  {
+   "qid": "att-007",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体38偏好的模式是均衡",
+   "new": "实体38偏好的模式是精确",
+   "expected_recall": "new",
+   "cos": 0.856
+  },
+  {
+   "qid": "par-019",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体40偏好的模式是快速",
+   "new": "实体40倾向选速度优先",
+   "expected_recall": "either_same_content",
+   "cos": 0.846
+  },
+  {
+   "qid": "par-031",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体29的容器是盒子B",
+   "new": "实体29装在B号盒子",
+   "expected_recall": "either_same_content",
+   "cos": 0.903
+  },
+  {
+   "qid": "par-001",
+   "family": "paraphrase",
+   "state_type": "progress",
+   "old": "实体24的状态是开启",
+   "new": "实体24当前是打开",
+   "expected_recall": "either_same_content",
+   "cos": 0.922
+  },
+  {
+   "qid": "att-047",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体01的容器是盒子A",
+   "new": "实体01的容器是箱子D",
+   "expected_recall": "new",
+   "cos": 0.869
+  },
+  {
+   "qid": "fli-041",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体08的位置在架子2",
+   "new": "实体08的位置在抽屉3",
+   "expected_recall": "new_strict",
+   "cos": 0.685
+  },
+  {
+   "qid": "unr-024",
+   "family": "unrelated",
+   "state_type": "fact",
+   "old": "实体13的容器是盒子B",
+   "new": "实体13的位置在架子2",
+   "expected_recall": "both_independent",
+   "cos": 0.668
+  },
+  {
+   "qid": "unr-004",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体23偏好的模式是省电",
+   "new": "实体23的容器是箱子D",
+   "expected_recall": "both_independent",
+   "cos": 0.51
+  },
+  {
+   "qid": "fli-021",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体13的进度是50%",
+   "new": "实体13的进度是0%",
+   "expected_recall": "new_strict",
+   "cos": 0.562
+  },
+  {
+   "qid": "unr-002",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体12偏好的模式是省电",
+   "new": "实体12的容器是箱子D",
+   "expected_recall": "both_independent",
+   "cos": 0.443
+  },
+  {
+   "qid": "par-017",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体04偏好的模式是均衡",
+   "new": "实体04倾向选平衡",
+   "expected_recall": "either_same_content",
+   "cos": 0.898
+  },
+  {
+   "qid": "fli-036",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体38的进度是75%",
+   "new": "实体38的进度是0%",
+   "expected_recall": "new_strict",
+   "cos": 0.645
+  },
+  {
+   "qid": "fli-007",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体09的位置在桌面4",
+   "new": "实体09的位置在抽屉3",
+   "expected_recall": "new_strict",
+   "cos": 0.68
+  },
+  {
+   "qid": "fli-027",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体11的状态是完成",
+   "new": "实体11的状态是关闭",
+   "expected_recall": "new_strict",
+   "cos": 0.745
+  },
+  {
+   "qid": "att-002",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体38的容器是箱子D",
+   "new": "实体38的容器是盒子C",
+   "expected_recall": "new",
+   "cos": 0.868
+  },
+  {
+   "qid": "par-028",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体33的颜色是红",
+   "new": "实体33呈红色",
+   "expected_recall": "either_same_content",
+   "cos": 0.921
+  },
+  {
+   "qid": "att-018",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体34的状态是暂停",
+   "new": "实体34的状态是完成",
+   "expected_recall": "new",
+   "cos": 0.77
+  },
+  {
+   "qid": "fli-008",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体02的进度是0%",
+   "new": "实体02的进度是100%",
+   "expected_recall": "new_strict",
+   "cos": 0.584
+  },
+  {
+   "qid": "att-016",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体40喜欢的版本是v3",
+   "new": "实体40喜欢的版本是v1",
+   "expected_recall": "new",
+   "cos": 0.864
+  },
+  {
+   "qid": "par-013",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体27的颜色是蓝",
+   "new": "实体27呈蓝色",
+   "expected_recall": "either_same_content",
+   "cos": 0.958
+  },
+  {
+   "qid": "unr-031",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体27喜欢的版本是v1",
+   "new": "实体27的颜色是黄",
+   "expected_recall": "both_independent",
+   "cos": 0.42
+  },
+  {
+   "qid": "fli-038",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体15的位置在桌面4",
+   "new": "实体15的位置在架子1",
+   "expected_recall": "new_strict",
+   "cos": 0.82
+  },
+  {
+   "qid": "att-022",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体24的颜色是蓝",
+   "new": "实体24的颜色是绿",
+   "expected_recall": "new",
+   "cos": 0.648
+  },
+  {
+   "qid": "fli-031",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体12的位置在架子2",
+   "new": "实体12的位置在抽屉3",
+   "expected_recall": "new_strict",
+   "cos": 0.713
+  },
+  {
+   "qid": "fli-019",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体32的进度是25%",
+   "new": "实体32的进度是100%",
+   "expected_recall": "new_strict",
+   "cos": 0.682
+  },
+  {
+   "qid": "par-002",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体28的容器是箱子D",
+   "new": "实体28装在D号箱",
+   "expected_recall": "either_same_content",
+   "cos": 0.869
+  },
+  {
+   "qid": "par-005",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体03的容器是盒子B",
+   "new": "实体03装在B号盒子",
+   "expected_recall": "either_same_content",
+   "cos": 0.905
+  },
+  {
+   "qid": "unr-014",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体26的状态是关闭",
+   "new": "实体26的位置在架子1",
+   "expected_recall": "both_independent",
+   "cos": 0.662
+  },
+  {
+   "qid": "fli-026",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体19的状态是完成",
+   "new": "实体19的状态是开启",
+   "expected_recall": "new_strict",
+   "cos": 0.892
+  },
+  {
+   "qid": "unr-010",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体01喜欢的版本是v3",
+   "new": "实体01的状态是开启",
+   "expected_recall": "both_independent",
+   "cos": 0.532
+  },
+  {
+   "qid": "att-012",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体36的状态是开启",
+   "new": "实体36的状态是暂停",
+   "expected_recall": "new",
+   "cos": 0.797
+  },
+  {
+   "qid": "unr-042",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体21的状态是开启",
+   "new": "实体21偏好的模式是均衡",
+   "expected_recall": "both_independent",
+   "cos": 0.694
+  },
+  {
+   "qid": "par-006",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体35偏好的模式是快速",
+   "new": "实体35倾向选速度优先",
+   "expected_recall": "either_same_content",
+   "cos": 0.828
+  },
+  {
+   "qid": "fli-014",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体30的进度是75%",
+   "new": "实体30的进度是100%",
+   "expected_recall": "new_strict",
+   "cos": 0.726
+  },
+  {
+   "qid": "unr-019",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体24的进度是50%",
+   "new": "实体24的状态是关闭",
+   "expected_recall": "both_independent",
+   "cos": 0.354
+  },
+  {
+   "qid": "unr-032",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体24偏好的模式是精确",
+   "new": "实体24喜欢的版本是v1",
+   "expected_recall": "both_independent",
+   "cos": 0.607
+  },
+  {
+   "qid": "unr-029",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体05的进度是75%",
+   "new": "实体05的容器是盒子B",
+   "expected_recall": "both_independent",
+   "cos": 0.338
+  },
+  {
+   "qid": "att-005",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体07的颜色是蓝",
+   "new": "实体07的颜色是绿",
+   "expected_recall": "new",
+   "cos": 0.612
+  },
+  {
+   "qid": "unr-009",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体22喜欢的版本是v3",
+   "new": "实体22的容器是盒子C",
+   "expected_recall": "both_independent",
+   "cos": 0.441
+  },
+  {
+   "qid": "att-028",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体25的状态是暂停",
+   "new": "实体25的状态是完成",
+   "expected_recall": "new",
+   "cos": 0.77
+  },
+  {
+   "qid": "att-024",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体15偏好的模式是精确",
+   "new": "实体15偏好的模式是省电",
+   "expected_recall": "new",
+   "cos": 0.628
+  },
+  {
+   "qid": "par-038",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体34偏好的模式是快速",
+   "new": "实体34倾向选速度优先",
+   "expected_recall": "either_same_content",
+   "cos": 0.818
+  },
+  {
+   "qid": "unr-043",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体20的进度是100%",
+   "new": "实体20的位置在桌面4",
+   "expected_recall": "both_independent",
+   "cos": 0.481
+  },
+  {
+   "qid": "par-008",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体05的颜色是红",
+   "new": "实体05呈红色",
+   "expected_recall": "either_same_content",
+   "cos": 0.928
+  },
+  {
+   "qid": "par-000",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体26偏好的模式是快速",
+   "new": "实体26倾向选速度优先",
+   "expected_recall": "either_same_content",
+   "cos": 0.835
+  },
+  {
+   "qid": "att-030",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体06的容器是盒子C",
+   "new": "实体06的容器是盒子B",
+   "expected_recall": "new",
+   "cos": 0.935
+  },
+  {
+   "qid": "att-029",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体33的进度是0%",
+   "new": "实体33的进度是25%",
+   "expected_recall": "new",
+   "cos": 0.678
+  },
+  {
+   "qid": "unr-028",
+   "family": "unrelated",
+   "state_type": "fact",
+   "old": "实体20的颜色是红",
+   "new": "实体20的位置在桌面4",
+   "expected_recall": "both_independent",
+   "cos": 0.414
+  },
+  {
+   "qid": "fli-032",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体02的进度是100%",
+   "new": "实体02的进度是25%",
+   "expected_recall": "new_strict",
+   "cos": 0.558
+  },
+  {
+   "qid": "att-025",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体22喜欢的版本是v2",
+   "new": "实体22喜欢的版本是v1",
+   "expected_recall": "new",
+   "cos": 0.92
+  },
+  {
+   "qid": "unr-008",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体04偏好的模式是均衡",
+   "new": "实体04的位置在抽屉3",
+   "expected_recall": "both_independent",
+   "cos": 0.414
+  },
+  {
+   "qid": "par-045",
+   "family": "paraphrase",
+   "state_type": "progress",
+   "old": "实体29的进度是50%",
+   "new": "实体29已完成一半",
+   "expected_recall": "either_same_content",
+   "cos": 0.644
+  },
+  {
+   "qid": "att-008",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体09的进度是0%",
+   "new": "实体09的进度是75%",
+   "expected_recall": "new",
+   "cos": 0.603
+  },
+  {
+   "qid": "fli-013",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体07的位置在抽屉3",
+   "new": "实体07的位置在桌面4",
+   "expected_recall": "new_strict",
+   "cos": 0.665
+  },
+  {
+   "qid": "par-020",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体19的容器是盒子B",
+   "new": "实体19装在B号盒子",
+   "expected_recall": "either_same_content",
+   "cos": 0.903
+  },
+  {
+   "qid": "att-034",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体28的状态是开启",
+   "new": "实体28的状态是暂停",
+   "expected_recall": "new",
+   "cos": 0.813
+  },
+  {
+   "qid": "unr-026",
+   "family": "unrelated",
+   "state_type": "fact",
+   "old": "实体22的位置在架子2",
+   "new": "实体22的容器是盒子C",
+   "expected_recall": "both_independent",
+   "cos": 0.636
+  },
+  {
+   "qid": "par-037",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体07的容器是盒子C",
+   "new": "实体07装在C号盒子",
+   "expected_recall": "either_same_content",
+   "cos": 0.899
+  },
+  {
+   "qid": "att-044",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体28偏好的模式是省电",
+   "new": "实体28偏好的模式是均衡",
+   "expected_recall": "new",
+   "cos": 0.674
+  },
+  {
+   "qid": "unr-013",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体21的状态是暂停",
+   "new": "实体21偏好的模式是快速",
+   "expected_recall": "both_independent",
+   "cos": 0.545
+  },
+  {
+   "qid": "unr-011",
+   "family": "unrelated",
+   "state_type": "fact",
+   "old": "实体31的容器是箱子D",
+   "new": "实体31喜欢的版本是v2",
+   "expected_recall": "both_independent",
+   "cos": 0.408
+  },
+  {
+   "qid": "unr-022",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体07的状态是完成",
+   "new": "实体07的容器是盒子A",
+   "expected_recall": "both_independent",
+   "cos": 0.571
+  },
+  {
+   "qid": "fli-000",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体19的状态是关闭",
+   "new": "实体19的状态是暂停",
+   "expected_recall": "new_strict",
+   "cos": 0.863
+  },
+  {
+   "qid": "fli-037",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体34的位置在桌面4",
+   "new": "实体34的位置在架子2",
+   "expected_recall": "new_strict",
+   "cos": 0.818
+  },
+  {
+   "qid": "unr-039",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体15的状态是完成",
+   "new": "实体15喜欢的版本是v2",
+   "expected_recall": "both_independent",
+   "cos": 0.549
+  },
+  {
+   "qid": "par-026",
+   "family": "paraphrase",
+   "state_type": "progress",
+   "old": "实体17的状态是暂停",
+   "new": "实体17当前是挂起",
+   "expected_recall": "either_same_content",
+   "cos": 0.801
+  },
+  {
+   "qid": "fli-048",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体17的位置在架子2",
+   "new": "实体17的位置在架子1",
+   "expected_recall": "new_strict",
+   "cos": 0.94
+  },
+  {
+   "qid": "fli-033",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体22的进度是100%",
+   "new": "实体22的进度是50%",
+   "expected_recall": "new_strict",
+   "cos": 0.643
+  },
+  {
+   "qid": "fli-042",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体39的位置在桌面4",
+   "new": "实体39的位置在架子2",
+   "expected_recall": "new_strict",
+   "cos": 0.818
+  },
+  {
+   "qid": "fli-015",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体13的位置在架子1",
+   "new": "实体13的位置在抽屉3",
+   "expected_recall": "new_strict",
+   "cos": 0.77
+  },
+  {
+   "qid": "att-042",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体01偏好的模式是快速",
+   "new": "实体01偏好的模式是省电",
+   "expected_recall": "new",
+   "cos": 0.608
+  },
+  {
+   "qid": "par-012",
+   "family": "paraphrase",
+   "state_type": "progress",
+   "old": "实体19的进度是100%",
+   "new": "实体19已完成全部完成",
+   "expected_recall": "either_same_content",
+   "cos": 0.538
+  },
+  {
+   "qid": "fli-035",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体28的位置在架子1",
+   "new": "实体28的位置在抽屉3",
+   "expected_recall": "new_strict",
+   "cos": 0.781
+  },
+  {
+   "qid": "par-029",
+   "family": "paraphrase",
+   "state_type": "progress",
+   "old": "实体26的进度是75%",
+   "new": "实体26已完成四分之三",
+   "expected_recall": "either_same_content",
+   "cos": 0.599
+  },
+  {
+   "qid": "unr-027",
+   "family": "unrelated",
+   "state_type": "fact",
+   "old": "实体14的颜色是红",
+   "new": "实体14偏好的模式是均衡",
+   "expected_recall": "both_independent",
+   "cos": 0.299
+  },
+  {
+   "qid": "par-043",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体32的颜色是绿",
+   "new": "实体32呈绿色",
+   "expected_recall": "either_same_content",
+   "cos": 0.95
+  },
+  {
+   "qid": "att-046",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体09的颜色是黄",
+   "new": "实体09的颜色是蓝",
+   "expected_recall": "new",
+   "cos": 0.553
+  },
+  {
+   "qid": "att-033",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体06的进度是50%",
+   "new": "实体06的进度是0%",
+   "expected_recall": "new",
+   "cos": 0.626
+  },
+  {
+   "qid": "att-021",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体14偏好的模式是均衡",
+   "new": "实体14偏好的模式是快速",
+   "expected_recall": "new",
+   "cos": 0.673
+  },
+  {
+   "qid": "unr-012",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体32偏好的模式是精确",
+   "new": "实体32的容器是盒子B",
+   "expected_recall": "both_independent",
+   "cos": 0.558
+  },
+  {
+   "qid": "par-041",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体15的位置在抽屉3",
+   "new": "实体15被放在第3抽屉",
+   "expected_recall": "either_same_content",
+   "cos": 0.965
+  },
+  {
+   "qid": "fli-003",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体33的位置在架子1",
+   "new": "实体33的位置在架子2",
+   "expected_recall": "new_strict",
+   "cos": 0.94
+  },
+  {
+   "qid": "par-046",
+   "family": "paraphrase",
+   "state_type": "fact",
+   "old": "实体07的容器是盒子B",
+   "new": "实体07装在B号盒子",
+   "expected_recall": "either_same_content",
+   "cos": 0.892
+  },
+  {
+   "qid": "att-000",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体06的进度是75%",
+   "new": "实体06的进度是100%",
+   "expected_recall": "new",
+   "cos": 0.686
+  },
+  {
+   "qid": "par-009",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体21喜欢的版本是v2",
+   "new": "实体21用2.0 版",
+   "expected_recall": "either_same_content",
+   "cos": 0.8
+  },
+  {
+   "qid": "att-045",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体14喜欢的版本是v1",
+   "new": "实体14喜欢的版本是v3",
+   "expected_recall": "new",
+   "cos": 0.852
+  },
+  {
+   "qid": "att-031",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体18的容器是盒子B",
+   "new": "实体18的容器是盒子C",
+   "expected_recall": "new",
+   "cos": 0.941
+  },
+  {
+   "qid": "att-010",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体29的状态是关闭",
+   "new": "实体29的状态是完成",
+   "expected_recall": "new",
+   "cos": 0.809
+  },
+  {
+   "qid": "fli-029",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体08的位置在架子2",
+   "new": "实体08的位置在桌面4",
+   "expected_recall": "new_strict",
+   "cos": 0.763
+  },
+  {
+   "qid": "unr-036",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体10的状态是暂停",
+   "new": "实体10的颜色是蓝",
+   "expected_recall": "both_independent",
+   "cos": 0.281
+  },
+  {
+   "qid": "att-017",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体29的进度是100%",
+   "new": "实体29的进度是75%",
+   "expected_recall": "new",
+   "cos": 0.724
+  },
+  {
+   "qid": "unr-001",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体21喜欢的版本是v3",
+   "new": "实体21的容器是盒子B",
+   "expected_recall": "both_independent",
+   "cos": 0.479
+  },
+  {
+   "qid": "att-003",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体39的颜色是黄",
+   "new": "实体39的颜色是绿",
+   "expected_recall": "new",
+   "cos": 0.624
+  },
+  {
+   "qid": "fli-022",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体38的进度是50%",
+   "new": "实体38的进度是0%",
+   "expected_recall": "new_strict",
+   "cos": 0.659
+  },
+  {
+   "qid": "fli-028",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体20的进度是25%",
+   "new": "实体20的进度是75%",
+   "expected_recall": "new_strict",
+   "cos": 0.626
+  },
+  {
+   "qid": "att-015",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体36的进度是0%",
+   "new": "实体36的进度是25%",
+   "expected_recall": "new",
+   "cos": 0.745
+  },
+  {
+   "qid": "par-036",
+   "family": "paraphrase",
+   "state_type": "pref",
+   "old": "实体31喜欢的版本是v2",
+   "new": "实体31用2.0 版",
+   "expected_recall": "either_same_content",
+   "cos": 0.809
+  },
+  {
+   "qid": "fli-016",
+   "family": "flip",
+   "state_type": "progress",
+   "old": "实体33的进度是25%",
+   "new": "实体33的进度是50%",
+   "expected_recall": "new_strict",
+   "cos": 0.682
+  },
+  {
+   "qid": "att-020",
+   "family": "attribute",
+   "state_type": "pref",
+   "old": "实体21喜欢的版本是v1",
+   "new": "实体21喜欢的版本是v2",
+   "expected_recall": "new",
+   "cos": 0.926
+  },
+  {
+   "qid": "unr-007",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体16的进度是75%",
+   "new": "实体16的容器是盒子A",
+   "expected_recall": "both_independent",
+   "cos": 0.355
+  },
+  {
+   "qid": "att-032",
+   "family": "attribute",
+   "state_type": "progress",
+   "old": "实体26的进度是25%",
+   "new": "实体26的进度是100%",
+   "expected_recall": "new",
+   "cos": 0.722
+  },
+  {
+   "qid": "par-040",
+   "family": "paraphrase",
+   "state_type": "progress",
+   "old": "实体06的进度是50%",
+   "new": "实体06已完成一半",
+   "expected_recall": "either_same_content",
+   "cos": 0.652
+  },
+  {
+   "qid": "att-014",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体18的容器是盒子A",
+   "new": "实体18的容器是盒子B",
+   "expected_recall": "new",
+   "cos": 0.96
+  },
+  {
+   "qid": "unr-006",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体13喜欢的版本是v2",
+   "new": "实体13的颜色是红",
+   "expected_recall": "both_independent",
+   "cos": 0.368
+  },
+  {
+   "qid": "att-039",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体04的位置在架子2",
+   "new": "实体04的位置在架子1",
+   "expected_recall": "new",
+   "cos": 0.908
+  },
+  {
+   "qid": "par-016",
+   "family": "paraphrase",
+   "state_type": "progress",
+   "old": "实体05的进度是0%",
+   "new": "实体05已完成零进度",
+   "expected_recall": "either_same_content",
+   "cos": 0.853
+  },
+  {
+   "qid": "att-006",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体02的容器是盒子C",
+   "new": "实体02的容器是盒子A",
+   "expected_recall": "new",
+   "cos": 0.912
+  },
+  {
+   "qid": "unr-034",
+   "family": "unrelated",
+   "state_type": "progress",
+   "old": "实体30的进度是25%",
+   "new": "实体30的位置在架子1",
+   "expected_recall": "both_independent",
+   "cos": 0.623
+  },
+  {
+   "qid": "unr-025",
+   "family": "unrelated",
+   "state_type": "pref",
+   "old": "实体01喜欢的版本是v1",
+   "new": "实体01的进度是25%",
+   "expected_recall": "both_independent",
+   "cos": 0.305
+  },
+  {
+   "qid": "par-042",
+   "family": "paraphrase",
+   "state_type": "progress",
+   "old": "实体16的状态是完成",
+   "new": "实体16当前是已结束",
+   "expected_recall": "either_same_content",
+   "cos": 0.84
+  },
+  {
+   "qid": "att-023",
+   "family": "attribute",
+   "state_type": "fact",
+   "old": "实体15的位置在架子1",
+   "new": "实体15的位置在抽屉3",
+   "expected_recall": "new",
+   "cos": 0.772
+  },
+  {
+   "qid": "fli-025",
+   "family": "flip",
+   "state_type": "fact",
+   "old": "实体26的位置在桌面4",
+   "new": "实体26的位置在架子2",
+   "expected_recall": "new_strict",
+   "cos": 0.825
+  },
+  {
+   "qid": "par-033",
+   "family": "paraphrase",
+   "state_type": "progress",
+   "old": "实体24的状态是开启",
+   "new": "实体24当前是打开",
+   "expected_recall": "either_same_content",
+   "cos": 0.922
+  }
+ ]
+}

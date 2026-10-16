@@ -1,0 +1,605 @@
+{
+ "agree_rate": 0.9,
+ "results": [
+  {
+   "qid": "fli-030",
+   "family": "flip",
+   "cos": 0.724,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Same subject (实体29) and same progress-tracking goal; the new session reports a later progress",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "fli-009",
+   "family": "flip",
+   "cos": 0.778,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\n  \"ops\": [\n    {\n      \"draft_idx\": 0,\n      \"supersedes\": [\"fact_a\"],\n      \"reason\": \"同一实体33的位置信息被更新：新事实指出位置在架子1，取代此前记录的抽屉3位置。\"\n    }\n  ]\n}",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "par-020",
+   "family": "paraphrase",
+   "cos": 0.903,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both facts are about the same entity (实体19) and the same container/location (盒子B); the new se",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "fli-014",
+   "family": "flip",
+   "cos": 0.726,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"The new session fact reports the same entity 实体30 making progress, advancing from 75% to 100%",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "fli-042",
+   "family": "flip",
+   "cos": 0.818,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both facts concern the same entity (实体39) and the same attribute (its location); the new sess",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "par-029",
+   "family": "paraphrase",
+   "cos": 0.599,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"New session fact and existing fact both describe the same subject (实体26) and the same progres",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "par-000",
+   "family": "paraphrase",
+   "cos": 0.835,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\": [{\"draft_idx\": 0, \"supersedes\": [\"fact_a\"], \"reason\": \"Both facts concern the same entity (实体26) and the same preference for speed/fast mode; ",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "unr-035",
+   "family": "unrelated",
+   "cos": 0.602,
+   "expected": "KEEP",
+   "theirs": "PARSE_FAIL",
+   "ok": true,
+   "raw": "{\"ops\": []}",
+   "theirs_fixed": "KEEP"
+  },
+  {
+   "qid": "att-013",
+   "family": "attribute",
+   "cos": 0.496,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both records concern the same entity's progress (实体07); the new session reports an updated pr",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "fli-010",
+   "family": "flip",
+   "cos": 0.583,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both facts track the same entity (实体14) and the same attribute (progress), with the new sessi",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "par-012",
+   "family": "paraphrase",
+   "cos": 0.538,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\n  \"ops\": [\n    {\n      \"draft_idx\": 0,\n      \"supersedes\": [\"fact_a\"],\n      \"reason\": \"Both records concern the same subject, 实体19, and the same co",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "att-009",
+   "family": "attribute",
+   "cos": 0.909,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both records concern the same entity (实体33) and the same preference property (喜欢的版本), but the",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "unr-015",
+   "family": "unrelated",
+   "cos": 0.656,
+   "expected": "KEEP",
+   "theirs": "PARSE_FAIL",
+   "ok": true,
+   "raw": "{\"ops\": []}",
+   "theirs_fixed": "KEEP"
+  },
+  {
+   "qid": "par-049",
+   "family": "paraphrase",
+   "cos": 0.73,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\n  \"ops\": [\n    {\n      \"draft_idx\": 0,\n      \"supersedes\": [\"fact_a\"],\n      \"reason\": \"两条记录均关于实体31的偏好，且都指向其偏好精度/精确模式；新记录延续并更新了同一偏好判断，因此应取代旧记录。\"\n   ",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "unr-037",
+   "family": "unrelated",
+   "cos": 0.403,
+   "expected": "KEEP",
+   "theirs": "PARSE_FAIL",
+   "ok": true,
+   "raw": "{\"ops\": []}",
+   "theirs_fixed": "KEEP"
+  },
+  {
+   "qid": "att-024",
+   "family": "attribute",
+   "cos": 0.628,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both facts concern the same entity (实体15) and the same attribute (偏好的模式). The new statement g",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "att-003",
+   "family": "attribute",
+   "cos": 0.624,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\n  \"ops\": [\n    {\"draft_idx\": 0, \"supersedes\": [\"fact_a\"], \"reason\": \"Both facts concern the same entity (实体39) and the same attribute (颜色), with the",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "fli-017",
+   "family": "flip",
+   "cos": 0.478,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"The new session reports the same entity (实体06) and the same progress metric, with an updated ",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "unr-045",
+   "family": "unrelated",
+   "cos": 0.384,
+   "expected": "KEEP",
+   "theirs": "PARSE_FAIL",
+   "ok": true,
+   "raw": "{\"ops\": []}",
+   "theirs_fixed": "KEEP"
+  },
+  {
+   "qid": "par-039",
+   "family": "paraphrase",
+   "cos": 0.583,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\n  \"ops\": [\n    {\"draft_idx\": 0, \"supersedes\": [\"fact_a\"], \"reason\": \"Both records concern the same entity (实体10) and its completion status; the new ",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "par-037",
+   "family": "paraphrase",
+   "cos": 0.899,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both statements describe the same entity 实体07 and the same container assignment (box C); the ",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "par-045",
+   "family": "paraphrase",
+   "cos": 0.644,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both facts refer to the same entity (实体29) and report the same progress state (half complete ",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "par-022",
+   "family": "paraphrase",
+   "cos": 0.791,
+   "expected": "SUPERSEDE",
+   "theirs": "PARSE_FAIL",
+   "ok": false,
+   "raw": "",
+   "theirs_fixed": "EMPTY"
+  },
+  {
+   "qid": "unr-003",
+   "family": "unrelated",
+   "cos": 0.46,
+   "expected": "KEEP",
+   "theirs": "PARSE_FAIL",
+   "ok": true,
+   "raw": "{\"ops\": []}",
+   "theirs_fixed": "KEEP"
+  },
+  {
+   "qid": "unr-008",
+   "family": "unrelated",
+   "cos": 0.414,
+   "expected": "KEEP",
+   "theirs": "PARSE_FAIL",
+   "ok": true,
+   "raw": "{\"ops\": []}",
+   "theirs_fixed": "KEEP"
+  },
+  {
+   "qid": "att-026",
+   "family": "attribute",
+   "cos": 0.871,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\n  \"ops\": [\n    {\n      \"draft_idx\": 0,\n      \"supersedes\": [\"fact_a\"],\n      \"reason\": \"Same subject (实体06) and same attribute (喜欢的版本); the new trac",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "att-011",
+   "family": "attribute",
+   "cos": 0.927,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\n  \"ops\": [\n    {\n      \"draft_idx\": 0,\n      \"supersedes\": [\"fact_a\"],\n      \"reason\": \"Both facts concern the same entity (实体12) and the same attri",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "fli-021",
+   "family": "flip",
+   "cos": 0.562,
+   "expected": "SUPERSEDE",
+   "theirs": "PARSE_FAIL",
+   "ok": false,
+   "raw": "",
+   "theirs_fixed": "EMPTY"
+  },
+  {
+   "qid": "par-028",
+   "family": "paraphrase",
+   "cos": 0.921,
+   "expected": "SUPERSEDE",
+   "theirs": "PARSE_FAIL",
+   "ok": false,
+   "raw": "",
+   "theirs_fixed": "EMPTY"
+  },
+  {
+   "qid": "fli-043",
+   "family": "flip",
+   "cos": 0.677,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both facts describe the location of the same entity (实体31), and the new fact gives a differen",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "fli-006",
+   "family": "flip",
+   "cos": 0.938,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"同一实体03的位置信息更新：新会话将位置记为架子1，取代此前记录的架子2。\"}]}",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "unr-048",
+   "family": "unrelated",
+   "cos": 0.524,
+   "expected": "KEEP",
+   "theirs": "PARSE_FAIL",
+   "ok": true,
+   "raw": "{\"ops\": []}",
+   "theirs_fixed": "KEEP"
+  },
+  {
+   "qid": "fli-000",
+   "family": "flip",
+   "cos": 0.863,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both facts describe the status of the same entity (实体19). The new session updates the previou",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "unr-007",
+   "family": "unrelated",
+   "cos": 0.355,
+   "expected": "KEEP",
+   "theirs": "PARSE_FAIL",
+   "ok": true,
+   "raw": "{\"ops\": []}",
+   "theirs_fixed": "KEEP"
+  },
+  {
+   "qid": "fli-029",
+   "family": "flip",
+   "cos": 0.763,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Same subject (实体08) and same goal of recording its location; the new session updates/replaces",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "att-000",
+   "family": "attribute",
+   "cos": 0.686,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both facts describe the same subject, 实体06, and the same progress attribute; the new fact upd",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "unr-038",
+   "family": "unrelated",
+   "cos": 0.829,
+   "expected": "KEEP",
+   "theirs": "PARSE_FAIL",
+   "ok": true,
+   "raw": "{\"ops\": []}",
+   "theirs_fixed": "KEEP"
+  },
+  {
+   "qid": "fli-045",
+   "family": "flip",
+   "cos": 0.77,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both facts describe the location of the same entity (实体06), and the new fact provides an upda",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "fli-020",
+   "family": "flip",
+   "cos": 0.848,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both facts describe the status of the same entity (实体21). The new status 关闭 is a newer state ",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "unr-043",
+   "family": "unrelated",
+   "cos": 0.481,
+   "expected": "KEEP",
+   "theirs": "PARSE_FAIL",
+   "ok": true,
+   "raw": "{\"ops\": []}",
+   "theirs_fixed": "KEEP"
+  },
+  {
+   "qid": "att-040",
+   "family": "attribute",
+   "cos": 0.878,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\": [{\"draft_idx\": 0, \"supersedes\": [\"fact_a\"], \"reason\": \"Same subject (实体34) and same attribute (liked version); the new session updates the pre",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "att-017",
+   "family": "attribute",
+   "cos": 0.724,
+   "expected": "SUPERSEDE",
+   "theirs": "PARSE_FAIL",
+   "ok": false,
+   "raw": "",
+   "theirs_fixed": "EMPTY"
+  },
+  {
+   "qid": "att-023",
+   "family": "attribute",
+   "cos": 0.772,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\n  \"ops\": [\n    {\n      \"draft_idx\": 0,\n      \"supersedes\": [\"fact_a\"],\n      \"reason\": \"Same subject (实体15) and same goal/property (its location); t",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "unr-047",
+   "family": "unrelated",
+   "cos": 0.589,
+   "expected": "KEEP",
+   "theirs": "PARSE_FAIL",
+   "ok": true,
+   "raw": "{\"ops\": []}",
+   "theirs_fixed": "KEEP"
+  },
+  {
+   "qid": "unr-028",
+   "family": "unrelated",
+   "cos": 0.414,
+   "expected": "KEEP",
+   "theirs": "PARSE_FAIL",
+   "ok": true,
+   "raw": "{\"ops\": []}",
+   "theirs_fixed": "KEEP"
+  },
+  {
+   "qid": "par-042",
+   "family": "paraphrase",
+   "cos": 0.84,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both facts concern the same entity (实体16) and its status. The new fact states the current sta",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "unr-031",
+   "family": "unrelated",
+   "cos": 0.42,
+   "expected": "KEEP",
+   "theirs": "PARSE_FAIL",
+   "ok": true,
+   "raw": "{\"ops\": []}",
+   "theirs_fixed": "KEEP"
+  },
+  {
+   "qid": "fli-018",
+   "family": "flip",
+   "cos": 0.639,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both facts track the progress of the same entity, 实体24, and the new session reports a newer p",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "par-014",
+   "family": "paraphrase",
+   "cos": 0.907,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both facts concern the same entity (实体27) and the same location goal (being on shelf 1/架子1). ",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "unr-044",
+   "family": "unrelated",
+   "cos": 0.534,
+   "expected": "KEEP",
+   "theirs": "PARSE_FAIL",
+   "ok": true,
+   "raw": "{\"ops\": []}",
+   "theirs_fixed": "KEEP"
+  },
+  {
+   "qid": "fli-019",
+   "family": "flip",
+   "cos": 0.682,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"同一实体32的进度更新：新记录将进度从25%推进到100%，是对同一任务的继续/完成。\"}]}",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "par-024",
+   "family": "paraphrase",
+   "cos": 0.899,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Same subject (实体06) and same containment relation (in box B / B号盒子); the new session restates",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "att-030",
+   "family": "attribute",
+   "cos": 0.935,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Same subject (实体06) and same single-valued attribute (container). The new fact states a diffe",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "att-035",
+   "family": "attribute",
+   "cos": 0.616,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\": [{\"draft_idx\": 0, \"supersedes\": [\"fact_a\"], \"reason\": \"Both facts concern the same entity (实体06) and the same attribute (color), and the new s",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "att-021",
+   "family": "attribute",
+   "cos": 0.673,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\n  \"ops\": [\n    {\n      \"draft_idx\": 0,\n      \"supersedes\": [\"fact_a\"],\n      \"reason\": \"Both facts concern the same entity (实体14) and the same attri",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "par-006",
+   "family": "paraphrase",
+   "cos": 0.828,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both facts concern the same entity (实体35) and the same preference attribute: favoring speed/f",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "unr-030",
+   "family": "unrelated",
+   "cos": 0.42,
+   "expected": "KEEP",
+   "theirs": "PARSE_FAIL",
+   "ok": false,
+   "raw": "",
+   "theirs_fixed": "EMPTY"
+  },
+  {
+   "qid": "att-028",
+   "family": "attribute",
+   "cos": 0.77,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both records concern the status of the same entity (实体25). The new record updates that status",
+   "theirs_fixed": "SUPERSEDE"
+  },
+  {
+   "qid": "att-033",
+   "family": "attribute",
+   "cos": 0.626,
+   "expected": "SUPERSEDE",
+   "theirs": "PARSE_FAIL",
+   "ok": false,
+   "raw": "{\n  \"ops\": [\n    {",
+   "theirs_fixed": "PARSE_FAIL"
+  },
+  {
+   "qid": "par-019",
+   "family": "paraphrase",
+   "cos": 0.846,
+   "expected": "SUPERSEDE",
+   "theirs": "SUPERSEDE",
+   "ok": true,
+   "raw": "{\"ops\":[{\"draft_idx\":0,\"supersedes\":[\"fact_a\"],\"reason\":\"Both facts concern Entity 40's preference/tendency toward speed; the new statement continues ",
+   "theirs_fixed": "SUPERSEDE"
+  }
+ ]
+}

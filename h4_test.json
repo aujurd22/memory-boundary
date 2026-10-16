@@ -1,0 +1,4806 @@
+{
+ "A1": [
+  {
+   "family": "paraphrase",
+   "cos": 0.907,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.907,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.848,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "flip",
+   "cos": 0.848,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.951,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.951,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.94,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.94,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.725,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.725,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.921,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.921,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.726,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.726,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.608,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.608,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.909,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.909,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.809,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.809,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.354,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.354,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.353,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.353,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.824,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.824,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.364,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.364,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.908,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.908,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.938,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.938,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.51,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.51,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.864,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.864,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.534,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.534,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.84,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.84,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.662,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.662,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.677,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.677,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.818,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.818,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.718,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.718,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.662,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.662,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.889,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.889,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.899,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.899,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.892,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.892,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.825,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.825,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.538,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.538,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.905,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.905,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.626,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "flip",
+   "cos": 0.626,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.928,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.928,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.659,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.659,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.722,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.722,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.935,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.935,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.624,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.624,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.623,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.623,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.496,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.496,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.608,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.608,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.754,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.754,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.479,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.479,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.515,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "flip",
+   "cos": 0.515,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.603,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.603,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.736,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.736,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.583,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.583,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.845,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.845,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.549,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.549,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.869,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.869,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.713,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.713,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.338,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.338,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.892,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.892,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.77,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.77,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.926,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.926,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.801,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.801,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.878,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.878,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.745,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.745,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.764,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.764,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.826,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.826,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.645,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.645,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.553,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.553,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.922,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.922,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.673,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.673,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.778,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.778,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.747,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "flip",
+   "cos": 0.747,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.869,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.869,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.818,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.818,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.658,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.658,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.745,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "flip",
+   "cos": 0.745,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.829,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.829,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.682,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.682,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.763,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.763,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.674,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.674,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.541,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.541,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.846,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.846,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.558,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "flip",
+   "cos": 0.558,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.68,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.68,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.96,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.96,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.694,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.694,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.961,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.961,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.73,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.73,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.659,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "flip",
+   "cos": 0.659,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.958,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.958,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.524,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.524,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.612,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.612,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.441,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.441,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.852,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.852,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.922,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.922,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.807,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.807,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.392,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.392,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.797,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.797,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.682,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "flip",
+   "cos": 0.682,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.903,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.903,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.81,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.81,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.95,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.95,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.626,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.626,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.829,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.829,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.76,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.76,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.941,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.941,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.678,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.678,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.652,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.652,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.773,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.773,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.846,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.846,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.818,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.818,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.46,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.46,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.584,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "flip",
+   "cos": 0.584,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.965,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.965,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.478,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.478,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.433,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.433,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.898,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.898,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.607,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.607,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.724,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "flip",
+   "cos": 0.724,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.504,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.504,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.912,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.912,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.835,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.835,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.791,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.791,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.42,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.42,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.443,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.443,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.493,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.493,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.782,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.782,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.499,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.499,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.643,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "flip",
+   "cos": 0.643,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.355,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.355,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.656,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.656,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.781,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.781,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.809,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.809,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.908,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.908,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.856,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.856,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.77,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.77,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.414,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.414,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.616,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.616,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.829,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.829,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.94,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.94,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.9,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.9,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.962,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.962,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.685,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.685,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.532,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.532,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.828,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.828,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.344,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.344,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.648,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.648,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.92,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.92,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.628,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.628,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.688,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.688,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.686,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.686,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.281,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.281,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.478,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "flip",
+   "cos": 0.478,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.665,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.665,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.853,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.853,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.562,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.562,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.622,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.622,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.77,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.77,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.571,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.571,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.575,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.575,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.799,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.799,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.636,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.636,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.874,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.874,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.545,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.545,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.733,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.733,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.644,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.644,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.927,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.927,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.809,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.809,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.384,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.384,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.403,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.403,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.813,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.813,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.639,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.639,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.583,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.583,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.305,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.305,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.772,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.772,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.8,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.8,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.408,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.408,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.724,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.724,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.368,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.368,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.599,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.599,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.299,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.299,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.806,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.806,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.962,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.962,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.899,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.899,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.929,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.929,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.82,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.82,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.903,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.903,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.496,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.496,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.589,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.589,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.602,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.602,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.42,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.42,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.682,
+   "dir": "现在",
+   "outcome": "stale"
+  },
+  {
+   "family": "flip",
+   "cos": 0.682,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.94,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.94,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.892,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.892,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.691,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.691,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.481,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.481,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.871,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.871,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.863,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.863,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.668,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.668,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.86,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.86,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.414,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.414,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "flip",
+   "cos": 0.77,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.77,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.774,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.774,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.558,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.558,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.868,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.868,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.896,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.896,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.961,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.961,
+   "dir": "当时",
+   "outcome": "correct_old"
+  }
+ ],
+ "A5": [
+  {
+   "family": "paraphrase",
+   "cos": 0.907,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.907,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.848,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.848,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.951,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.951,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.94,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.94,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.725,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.725,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.921,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.921,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.726,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.726,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.608,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.608,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.909,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.909,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.809,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.809,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.354,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.354,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.353,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.353,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.824,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.824,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.364,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.364,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.908,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.908,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.938,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.938,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.51,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.51,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.864,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.864,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.534,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.534,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.84,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.84,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.662,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.662,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.677,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.677,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.818,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.818,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.718,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.718,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.662,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.662,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.889,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.889,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.899,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.899,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.892,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.892,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.825,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.825,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.538,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.538,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.905,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.905,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.626,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.626,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.928,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.928,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.659,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.659,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.722,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.722,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.935,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.935,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.624,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.624,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.623,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.623,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.496,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.496,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.608,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.608,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.754,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.754,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.479,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.479,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.515,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.515,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.603,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.603,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.736,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.736,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.583,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.583,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.845,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.845,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.549,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.549,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.869,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.869,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.713,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.713,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.338,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.338,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.892,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.892,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.77,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.77,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.926,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.926,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.801,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.801,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.878,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.878,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.745,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.745,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.764,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.764,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.826,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.826,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.645,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.645,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.553,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.553,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.922,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.922,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.673,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.673,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.778,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.778,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.747,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.747,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.869,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.869,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.818,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.818,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.658,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.658,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.745,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.745,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.829,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.829,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.682,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.682,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.763,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.763,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.674,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.674,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.541,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.541,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.846,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.846,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.558,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.558,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.68,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.68,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.96,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.96,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.694,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.694,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.961,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.961,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.73,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.73,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.659,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.659,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.958,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.958,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.524,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.524,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.612,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.612,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.441,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.441,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.852,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.852,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.922,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.922,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.807,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.807,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.392,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.392,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.797,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.797,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.682,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.682,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.903,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.903,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.81,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.81,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.95,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.95,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.626,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.626,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.829,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.829,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.76,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.76,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.941,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.941,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.678,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.678,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.652,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.652,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.773,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.773,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.846,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.846,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.818,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.818,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.46,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.46,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.584,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.584,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.965,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.965,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.478,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.478,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.433,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.433,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.898,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.898,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.607,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.607,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.724,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.724,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.504,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.504,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.912,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.912,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.835,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.835,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.791,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.791,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.42,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.42,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.443,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.443,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.493,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.493,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.782,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.782,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.499,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.499,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.643,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.643,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.355,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.355,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.656,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.656,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.781,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.781,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.809,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.809,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.908,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.908,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.856,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.856,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.77,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.77,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.414,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.414,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.616,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.616,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.829,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.829,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.94,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.94,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.9,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.9,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.962,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.962,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.685,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.685,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.532,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.532,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.828,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.828,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.344,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.344,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.648,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.648,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.92,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.92,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.628,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.628,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.688,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.688,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.686,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.686,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.281,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.281,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.478,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.478,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.665,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.665,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.853,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.853,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.562,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.562,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.622,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.622,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.77,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.77,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.571,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.571,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.575,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.575,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.799,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.799,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.636,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.636,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.874,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.874,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.545,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.545,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.733,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.733,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.644,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.644,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.927,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.927,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.809,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.809,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.384,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.384,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.403,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.403,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.813,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.813,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.639,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.639,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.583,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.583,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.305,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.305,
+   "dir": "当时",
+   "outcome": "correct_old"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.772,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.772,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.8,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.8,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.408,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.408,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.724,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.724,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.368,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.368,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.599,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.599,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.299,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.299,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.806,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.806,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.962,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.962,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.899,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.899,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.929,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.929,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.82,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.82,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.903,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.903,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.496,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.496,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.589,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.589,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.602,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.602,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.42,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.42,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.682,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.682,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.94,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.94,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.892,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.892,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.691,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.691,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.481,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.481,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.871,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.871,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.863,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.863,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.668,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.668,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.86,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.86,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.414,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.414,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.77,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "flip",
+   "cos": 0.77,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.774,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.774,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.558,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "unrelated",
+   "cos": 0.558,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.868,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "attribute",
+   "cos": 0.868,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.896,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.896,
+   "dir": "当时",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.961,
+   "dir": "现在",
+   "outcome": "correct"
+  },
+  {
+   "family": "paraphrase",
+   "cos": 0.961,
+   "dir": "当时",
+   "outcome": "correct"
+  }
+ ]
+}
