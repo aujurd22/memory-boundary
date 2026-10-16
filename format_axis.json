@@ -1,0 +1,56 @@
+{
+ "qwen": {
+  "direct": {
+   "free": 8,
+   "boxed": 0,
+   "n": 10
+  },
+  "prefix": {
+   "free": 8,
+   "boxed": 0,
+   "n": 10
+  },
+  "json": {
+   "free": 0,
+   "boxed": 0,
+   "n": 10
+  },
+  "direct_noise": {
+   "free": 8,
+   "boxed": 0,
+   "n": 10
+  },
+  "json_noise": {
+   "free": 0,
+   "boxed": 0,
+   "n": 10
+  }
+ },
+ "deepseek": {
+  "direct": {
+   "free": 9,
+   "boxed": 0,
+   "n": 10
+  },
+  "prefix": {
+   "free": 7,
+   "boxed": 0,
+   "n": 10
+  },
+  "json": {
+   "free": 10,
+   "boxed": 10,
+   "n": 10
+  },
+  "direct_noise": {
+   "free": 9,
+   "boxed": 0,
+   "n": 10
+  },
+  "json_noise": {
+   "free": 10,
+   "boxed": 10,
+   "n": 10
+  }
+ }
+}
