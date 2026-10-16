@@ -1,0 +1,48 @@
+{
+ "qwen": {
+  "plain": {
+   "correct": 8,
+   "stale": 2,
+   "ambiguous": 0,
+   "empty": 0,
+   "other": 0
+  },
+  "mask": {
+   "correct": 8,
+   "stale": 2,
+   "ambiguous": 0,
+   "empty": 0,
+   "other": 0
+  },
+  "timeline": {
+   "correct": 9,
+   "stale": 1,
+   "ambiguous": 0,
+   "empty": 0,
+   "other": 0
+  }
+ },
+ "deepseek": {
+  "plain": {
+   "correct": 10,
+   "stale": 0,
+   "ambiguous": 0,
+   "empty": 0,
+   "other": 0
+  },
+  "mask": {
+   "correct": 10,
+   "stale": 0,
+   "ambiguous": 0,
+   "empty": 0,
+   "other": 0
+  },
+  "timeline": {
+   "correct": 10,
+   "stale": 0,
+   "ambiguous": 0,
+   "empty": 0,
+   "other": 0
+  }
+ }
+}

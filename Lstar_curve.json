@@ -1,0 +1,264 @@
+{
+ "loads": [
+  [
+   8,
+   8,
+   64
+  ],
+  [
+   16,
+   8,
+   128
+  ],
+  [
+   16,
+   16,
+   256
+  ],
+  [
+   32,
+   16,
+   512
+  ]
+ ],
+ "points": [
+  {
+   "model": "deepseek",
+   "n_ent": 8,
+   "n_upd": 8,
+   "load": 64,
+   "arm": "plain",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "seconds": 11
+  },
+  {
+   "model": "deepseek",
+   "n_ent": 8,
+   "n_upd": 8,
+   "load": 64,
+   "arm": "mask",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "seconds": 12
+  },
+  {
+   "model": "deepseek",
+   "n_ent": 16,
+   "n_upd": 8,
+   "load": 128,
+   "arm": "plain",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "seconds": 10
+  },
+  {
+   "model": "deepseek",
+   "n_ent": 16,
+   "n_upd": 8,
+   "load": 128,
+   "arm": "mask",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "seconds": 15
+  },
+  {
+   "model": "deepseek",
+   "n_ent": 16,
+   "n_upd": 16,
+   "load": 256,
+   "arm": "plain",
+   "correct": 7,
+   "n": 8,
+   "detail": {
+    "correct": 7,
+    "stale": 0,
+    "ambig": 1,
+    "other": 0,
+    "empty": 0
+   },
+   "seconds": 15
+  },
+  {
+   "model": "deepseek",
+   "n_ent": 16,
+   "n_upd": 16,
+   "load": 256,
+   "arm": "mask",
+   "correct": 7,
+   "n": 8,
+   "detail": {
+    "correct": 7,
+    "stale": 0,
+    "ambig": 1,
+    "other": 0,
+    "empty": 0
+   },
+   "seconds": 12
+  },
+  {
+   "model": "deepseek",
+   "n_ent": 32,
+   "n_upd": 16,
+   "load": 512,
+   "arm": "plain",
+   "correct": 7,
+   "n": 8,
+   "detail": {
+    "correct": 7,
+    "stale": 0,
+    "ambig": 1,
+    "other": 0,
+    "empty": 0
+   },
+   "seconds": 18
+  },
+  {
+   "model": "deepseek",
+   "n_ent": 32,
+   "n_upd": 16,
+   "load": 512,
+   "arm": "mask",
+   "correct": 7,
+   "n": 8,
+   "detail": {
+    "correct": 7,
+    "stale": 0,
+    "ambig": 1,
+    "other": 0,
+    "empty": 0
+   },
+   "seconds": 10
+  },
+  {
+   "model": "qwen",
+   "n_ent": 8,
+   "n_upd": 8,
+   "load": 64,
+   "arm": "plain",
+   "correct": 0,
+   "n": 8,
+   "detail": {
+    "correct": 0,
+    "stale": 8,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "seconds": 1
+  },
+  {
+   "model": "qwen",
+   "n_ent": 8,
+   "n_upd": 8,
+   "load": 64,
+   "arm": "mask",
+   "correct": 7,
+   "n": 8,
+   "detail": {
+    "correct": 7,
+    "stale": 0,
+    "ambig": 1,
+    "other": 0,
+    "empty": 0
+   },
+   "seconds": 0
+  },
+  {
+   "model": "qwen",
+   "n_ent": 16,
+   "n_upd": 8,
+   "load": 128,
+   "arm": "plain",
+   "correct": 2,
+   "n": 8,
+   "detail": {
+    "correct": 2,
+    "stale": 5,
+    "ambig": 0,
+    "other": 1,
+    "empty": 0
+   },
+   "seconds": 1
+  },
+  {
+   "model": "qwen",
+   "n_ent": 16,
+   "n_upd": 8,
+   "load": 128,
+   "arm": "mask",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "seconds": 0
+  },
+  {
+   "model": "qwen",
+   "n_ent": 16,
+   "n_upd": 16,
+   "load": 256,
+   "arm": "plain",
+   "correct": 1,
+   "n": 8,
+   "detail": {
+    "correct": 1,
+    "stale": 6,
+    "ambig": 0,
+    "other": 1,
+    "empty": 0
+   },
+   "seconds": 2
+  },
+  {
+   "model": "qwen",
+   "n_ent": 16,
+   "n_upd": 16,
+   "load": 256,
+   "arm": "mask",
+   "correct": 5,
+   "n": 8,
+   "detail": {
+    "correct": 5,
+    "stale": 0,
+    "ambig": 3,
+    "other": 0,
+    "empty": 0
+   },
+   "seconds": 1
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "qwen": {
+  "plain": {
+   "correct": 20,
+   "stale": 0,
+   "ambiguous": 0,
+   "empty": 0,
+   "other": 0
+  },
+  "mask": {
+   "correct": 20,
+   "stale": 0,
+   "ambiguous": 0,
+   "empty": 0,
+   "other": 0
+  },
+  "label": {
+   "correct": 20,
+   "stale": 0,
+   "ambiguous": 0,
+   "empty": 0,
+   "other": 0
+  }
+ },
+ "deepseek": {
+  "plain": {
+   "correct": 20,
+   "stale": 0,
+   "ambiguous": 0,
+   "empty": 0,
+   "other": 0
+  },
+  "mask": {
+   "correct": 20,
+   "stale": 0,
+   "ambiguous": 0,
+   "empty": 0,
+   "other": 0
+  },
+  "label": {
+   "correct": 19,
+   "stale": 0,
+   "ambiguous": 0,
+   "empty": 1,
+   "other": 0
+  }
+ }
+}

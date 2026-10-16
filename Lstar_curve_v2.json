@@ -1,0 +1,326 @@
+{
+ "loads": [
+  [
+   8,
+   8,
+   64
+  ],
+  [
+   16,
+   8,
+   128
+  ],
+  [
+   16,
+   16,
+   256
+  ],
+  [
+   32,
+   16,
+   512
+  ]
+ ],
+ "points": [
+  {
+   "model": "deepseek",
+   "n_ent": 8,
+   "n_upd": 8,
+   "load": 64,
+   "arm": "plain",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "samples": [],
+   "seconds": 10
+  },
+  {
+   "model": "deepseek",
+   "n_ent": 8,
+   "n_upd": 8,
+   "load": 64,
+   "arm": "mask",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "samples": [],
+   "seconds": 11
+  },
+  {
+   "model": "deepseek",
+   "n_ent": 16,
+   "n_upd": 8,
+   "load": 128,
+   "arm": "plain",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "samples": [],
+   "seconds": 13
+  },
+  {
+   "model": "deepseek",
+   "n_ent": 16,
+   "n_upd": 8,
+   "load": 128,
+   "arm": "mask",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "samples": [],
+   "seconds": 13
+  },
+  {
+   "model": "deepseek",
+   "n_ent": 16,
+   "n_upd": 16,
+   "load": 256,
+   "arm": "plain",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "samples": [],
+   "seconds": 14
+  },
+  {
+   "model": "deepseek",
+   "n_ent": 16,
+   "n_upd": 16,
+   "load": 256,
+   "arm": "mask",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "samples": [],
+   "seconds": 11
+  },
+  {
+   "model": "deepseek",
+   "n_ent": 32,
+   "n_upd": 16,
+   "load": 512,
+   "arm": "plain",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "samples": [],
+   "seconds": 17
+  },
+  {
+   "model": "deepseek",
+   "n_ent": 32,
+   "n_upd": 16,
+   "load": 512,
+   "arm": "mask",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "samples": [],
+   "seconds": 11
+  },
+  {
+   "model": "qwen",
+   "n_ent": 8,
+   "n_upd": 8,
+   "load": 64,
+   "arm": "plain",
+   "correct": 1,
+   "n": 8,
+   "detail": {
+    "correct": 1,
+    "stale": 7,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "samples": [
+    {
+     "latest": "银",
+     "got": "朱",
+     "kind": "stale"
+    },
+    {
+     "latest": "青",
+     "got": "绛",
+     "kind": "stale"
+    },
+    {
+     "latest": "蓝",
+     "got": "铜",
+     "kind": "stale"
+    }
+   ],
+   "seconds": 1
+  },
+  {
+   "model": "qwen",
+   "n_ent": 8,
+   "n_upd": 8,
+   "load": 64,
+   "arm": "mask",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "samples": [],
+   "seconds": 0
+  },
+  {
+   "model": "qwen",
+   "n_ent": 16,
+   "n_upd": 8,
+   "load": 128,
+   "arm": "plain",
+   "correct": 2,
+   "n": 8,
+   "detail": {
+    "correct": 2,
+    "stale": 4,
+    "ambig": 0,
+    "other": 2,
+    "empty": 0
+   },
+   "samples": [
+    {
+     "latest": "黑",
+     "got": "蓝",
+     "kind": "stale"
+    },
+    {
+     "latest": "橙",
+     "got": "绛",
+     "kind": "stale"
+    },
+    {
+     "latest": "黄",
+     "got": "靛",
+     "kind": "other"
+    }
+   ],
+   "seconds": 1
+  },
+  {
+   "model": "qwen",
+   "n_ent": 16,
+   "n_upd": 8,
+   "load": 128,
+   "arm": "mask",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "samples": [],
+   "seconds": 0
+  },
+  {
+   "model": "qwen",
+   "n_ent": 16,
+   "n_upd": 16,
+   "load": 256,
+   "arm": "plain",
+   "correct": 1,
+   "n": 8,
+   "detail": {
+    "correct": 1,
+    "stale": 7,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "samples": [
+    {
+     "latest": "翠",
+     "got": "绛",
+     "kind": "stale"
+    },
+    {
+     "latest": "黄",
+     "got": "金",
+     "kind": "stale"
+    },
+    {
+     "latest": "红",
+     "got": "棕",
+     "kind": "stale"
+    }
+   ],
+   "seconds": 2
+  },
+  {
+   "model": "qwen",
+   "n_ent": 16,
+   "n_upd": 16,
+   "load": 256,
+   "arm": "mask",
+   "correct": 8,
+   "n": 8,
+   "detail": {
+    "correct": 8,
+    "stale": 0,
+    "ambig": 0,
+    "other": 0,
+    "empty": 0
+   },
+   "samples": [],
+   "seconds": 1
+  }
+ ]
+}
