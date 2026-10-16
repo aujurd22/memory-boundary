@@ -1,0 +1,21 @@
+{
+ "full": {
+  "agree": 60,
+  "total": 60,
+  "rate": 1.0,
+  "llm_calls": 60,
+  "avg_candidates": 4.0
+ },
+ "hybrid": {
+  "agree": 59,
+  "total": 60,
+  "rate": 0.983,
+  "llm_calls": 60,
+  "avg_candidates": 2.2
+ },
+ "verdict": {
+  "accuracy_kept": true,
+  "calls_saved": 0,
+  "saving_rate": 0.0
+ }
+}
