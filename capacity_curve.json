@@ -1,0 +1,198 @@
+{
+ "ns": [
+  1,
+  2,
+  4,
+  8,
+  16,
+  32
+ ],
+ "points": [
+  {
+   "model": "qwen",
+   "n_lines": 1,
+   "ok": 2,
+   "n": 5,
+   "misses": [
+    {
+     "gold": "米",
+     "got": "青"
+    },
+    {
+     "gold": "红",
+     "got": "金"
+    },
+    {
+     "gold": "铜",
+     "got": "红"
+    }
+   ]
+  },
+  {
+   "model": "qwen",
+   "n_lines": 2,
+   "ok": 0,
+   "n": 5,
+   "misses": [
+    {
+     "gold": "青",
+     "got": "金"
+    },
+    {
+     "gold": "黄",
+     "got": "银"
+    },
+    {
+     "gold": "黄",
+     "got": "金"
+    },
+    {
+     "gold": "红",
+     "got": "蓝"
+    },
+    {
+     "gold": "绿",
+     "got": "黄"
+    }
+   ]
+  },
+  {
+   "model": "qwen",
+   "n_lines": 4,
+   "ok": 0,
+   "n": 5,
+   "misses": [
+    {
+     "gold": "粉",
+     "got": "黄"
+    },
+    {
+     "gold": "铜",
+     "got": "金"
+    },
+    {
+     "gold": "绛",
+     "got": "蓝"
+    },
+    {
+     "gold": "翠",
+     "got": "蓝"
+    },
+    {
+     "gold": "灰",
+     "got": "绿"
+    }
+   ]
+  },
+  {
+   "model": "qwen",
+   "n_lines": 8,
+   "ok": 1,
+   "n": 5,
+   "misses": [
+    {
+     "gold": "绛",
+     "got": "橙"
+    },
+    {
+     "gold": "黄",
+     "got": "朱"
+    },
+    {
+     "gold": "白",
+     "got": "粉"
+    },
+    {
+     "gold": "黄",
+     "got": "黑"
+    }
+   ]
+  },
+  {
+   "model": "qwen",
+   "n_lines": 16,
+   "ok": 2,
+   "n": 5,
+   "misses": [
+    {
+     "gold": "黑",
+     "got": "铜"
+    },
+    {
+     "gold": "白",
+     "got": "粉"
+    },
+    {
+     "gold": "白",
+     "got": "朱"
+    }
+   ]
+  },
+  {
+   "model": "qwen",
+   "n_lines": 32,
+   "ok": 1,
+   "n": 5,
+   "misses": [
+    {
+     "gold": "朱",
+     "got": "绛"
+    },
+    {
+     "gold": "紫",
+     "got": "灰"
+    },
+    {
+     "gold": "褐",
+     "got": "金"
+    },
+    {
+     "gold": "黑",
+     "got": "朱"
+    }
+   ]
+  },
+  {
+   "model": "deepseek",
+   "n_lines": 1,
+   "ok": 5,
+   "n": 5,
+   "misses": []
+  },
+  {
+   "model": "deepseek",
+   "n_lines": 2,
+   "ok": 5,
+   "n": 5,
+   "misses": []
+  },
+  {
+   "model": "deepseek",
+   "n_lines": 4,
+   "ok": 5,
+   "n": 5,
+   "misses": []
+  },
+  {
+   "model": "deepseek",
+   "n_lines": 8,
+   "ok": 5,
+   "n": 5,
+   "misses": []
+  },
+  {
+   "model": "deepseek",
+   "n_lines": 16,
+   "ok": 5,
+   "n": 5,
+   "misses": []
+  },
+  {
+   "model": "deepseek",
+   "n_lines": 32,
+   "ok": 5,
+   "n": 5,
+   "misses": []
+  }
+ ]
+}
