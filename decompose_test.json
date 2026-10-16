@@ -1,0 +1,100 @@
+{
+ "stats": {
+  "single_ok": 1,
+  "two_ok": 3,
+  "step1_exact": 9,
+  "n": 10
+ },
+ "details": [
+  {
+   "gold": "绯",
+   "single": "墨",
+   "step1": "黄,银,铜,绛,青,墨,米,绯",
+   "step2": "青",
+   "ok_single": false,
+   "ok_two": false,
+   "step1_len": 8
+  },
+  {
+   "gold": "黛",
+   "single": "金",
+   "step1": "黄, 米, 棕, 粉, 金, 红, 黛",
+   "step2": "金",
+   "ok_single": false,
+   "ok_two": true,
+   "step1_len": 7
+  },
+  {
+   "gold": "青",
+   "single": "青",
+   "step1": "翠,粉,铜,绿,金,红,青",
+   "step2": "青",
+   "ok_single": true,
+   "ok_two": true,
+   "step1_len": 7
+  },
+  {
+   "gold": "粉",
+   "single": "铜",
+   "step1": "黄,绛,金,绿,棕,铜,翠,粉",
+   "step2": "翠",
+   "ok_single": false,
+   "ok_two": false,
+   "step1_len": 8
+  },
+  {
+   "gold": "红",
+   "single": "蓝",
+   "step1": ",绛,墨,青,朱,绯,棕,蓝,铜,红",
+   "step2": "铜",
+   "ok_single": false,
+   "ok_two": false,
+   "step1_len": 9
+  },
+  {
+   "gold": "绯",
+   "single": "紫",
+   "step1": "红,褐,朱,黑,紫,黄,绯",
+   "step2": "紫",
+   "ok_single": false,
+   "ok_two": false,
+   "step1_len": 7
+  },
+  {
+   "gold": "靛",
+   "single": "蓝",
+   "step1": ",灰,米,黄,蓝,绛,棕",
+   "step2": "棕",
+   "ok_single": false,
+   "ok_two": false,
+   "step1_len": 6
+  },
+  {
+   "gold": "翠",
+   "single": "金",
+   "step1": "朱, 黄, 黛, 米, 绿, 翠",
+   "step2": "翠",
+   "ok_single": false,
+   "ok_two": true,
+   "step1_len": 6
+  },
+  {
+   "gold": "墨",
+   "single": "银",
+   "step1": ",",
+   "step2": "蓝",
+   "ok_single": false,
+   "ok_two": false,
+   "step1_len": 0
+  },
+  {
+   "gold": "白",
+   "single": "青",
+   "step1": "朱,绛,银,青,靛,粉,白",
+   "step2": "靛",
+   "ok_single": false,
+   "ok_two": false,
+   "step1_len": 7
+  }
+ ]
+}
