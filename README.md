@@ -1,29 +1,55 @@
-# memory_boundary
+# memory-boundary
 
-动态记忆更新的失效边界——f(语义Δ, 状态类型) 相图。
+Failure-boundary phase diagram for memory update systems:
+**f(semantic-Δ, state-type, query-time-direction) → which mechanism combination fails where.**
 
-## 文件
-- PREREG.md        预注册草稿 v0.1（跑批前锁死）
-- build_stimuli.py 刺激集生成器
-- stimuli_v1.json  200 对刺激，v0.3（含实测嵌入余弦 `cos` 字段）
+Seven pre-registered experiments (H1-H7) moving from synthetic stimuli to a
+production memory store, culminating in a cross-system comparison against
+Tencent Hunyuan's Hy-Memory / TriLink conflict reconciler.
 
-## 刺激集质检记录（2026-10-15）
-- v0.1 质检问题: state_type 全落 progress（模板选择 bug）；paraphrase 100% 退化 old==new
-- v0.2 修复类型分布，但 paraphrase 仍退化（同 key 无第二模板候选）
-- v0.3 加同义词表层（SYNONYM_V 值变体 + SYNONYM_T 模板变体），退化 0/50
+## Headline results
 
-## 实测语义Δ（paraphrase-multilingual-MiniLM-L12-v2, cos(old,new)）
-- paraphrase mean=0.845 [0.538, 0.965]   （预注册目标 0.9+，实测略低）
-- attribute  mean=0.767 [0.496, 0.960]   （目标 0.7-0.9 ✓）
-- flip       mean=0.731 [0.478, 0.940]   （目标 0.7-0.9 ✓）
-- unrelated  mean=0.495 [0.281, 0.829]   （目标 <0.5 ✓ 边缘，max 0.829 有交叉）
+| # | Experiment | Result |
+|---|---|---|
+| H1 | Supersede-gate Δ dependence | trigger rate monotonic in Δ: 64% at 0.9+ bin, 0% below 0.7 |
+| H2 | Time-filter cost | 42 lost historical queries, concentrated in high-Δ bins |
+| — | Stale decomposition | mid-Δ peak 26% (symmetry trap); attribute updates = 46% epicenter |
+| H4 | Cluster-internal time hierarchy | attribute stale 46% → **0%**, zero side effects |
+| H4b | Unsupervised clustering (no name rules) | reproduces H4 at **1.8%** residual |
+| H5 | Production DB transfer (16,507 entries) | lineage recovery **99.5%**, cross-link **0.6%** at th=0.55 |
+| H6 | End-to-end five-arm on real lineages | pure-semantic **14%** → structural **89%** (+75pp) |
+| H7 | Cross-system (our stimuli × Hy-Memory reconciler prompt) | **90%** agreement; orthogonal layers, stacking gains |
 
-## 预注册纪律决定
-生成器不再按实测结果回调（防 stimulus p-hacking）。跑批按【实测 cos 分箱】
-而非族名义分箱；族标签仅作辅助维度。跨族交叉（如 unrelated max 0.829）保留，
-由实测分箱自然处理。
+## Key claims
 
-## 下一步
-- 五臂 harness（对接 flymemory 本地库或独立 mini-registry）
-- 裁判外置 prompt 设计（异源模型二选一判分）
-- 2026-11 下旬正式跑批
+1. **The fractal-structure claim (Cammarata 2026) transfers to memory stores**:
+   entity-version clusters are recoverable unsupervised from embeddings alone,
+   and exploiting them (cluster-internal time hierarchy) removes the largest
+   failure class of pure-semantic recall.
+2. **Query-time direction is a necessary experimental axis**: "recall the old
+   version" is confounded between correct-history and stale unless the query
+   carries a temporal qualifier ([now] vs [then]).
+3. **Structure layer vs judgment layer are orthogonal**: TriLink's LLM-rule
+   reconciler reaches 90% semantic agreement on our stimuli, but costs O(N×M)
+   LLM calls and has no failure-boundary knowledge. The O(N) structural layer
+   (unsupervised clustering + time hierarchy) serves as its candidate
+   pre-filter — merged pipeline has stacking gains.
+
+## Files
+
+- `PREREG.md` — pre-registration v0.4 (design, hypotheses H1-H4, failure criteria)
+- `build_stimuli.py`, `stimuli_v1.json` — 200 pairs, four families, with measured embedding cosine
+- `harness.py`, `full_run.py` — five-arm mechanical harness + full run
+- `h4_test.py`, `h4b_unsupervised.py` — explicit-rule and unsupervised cluster-hierarchy tests
+- `h5_realdb.py` — production-store validation (flymemory, supersede lineages as ground truth)
+- `h6_e2e.py` — end-to-end five-arm on real lineages
+- `h7_cross.py` — cross-system comparison (Hy-Memory reconciler prompt, DeepSeek runner)
+- `judge.py` — external judge protocol (temporal-qualifier version, 5/5 critical cells)
+- `FULL_RUN_REPORT.md` — cumulative report v1.6
+- `VERSUS_HYMEMORY.md` — six advantages flymemory holds that Hy-Memory lacks
+
+## Normalize-before-compare
+
+`flymemory_v3.pkl` stores **unnormalized** embeddings (norms 3-4). All
+cosine comparisons must normalize first — the unnormalized inner product
+(2.7-8.3) exceeds every threshold and produces garbage cluster diagnostics.
